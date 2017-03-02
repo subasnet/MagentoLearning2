@@ -1,6 +1,6 @@
 <?php
 /**
- * Magento
+ *
  * app/code/local/MasteringMagento/Example/Helper/Data.php
  *
  * Description of the file
