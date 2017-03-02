@@ -36,6 +36,17 @@
             </example>
         </helpers>
     </global>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <example before="Mage_Adminhtml">MasteringMagento_Example_Adminhtml</example>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
     <frontend>
         <routers>
             <example>

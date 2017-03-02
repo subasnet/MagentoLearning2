@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!--
+/**
+ * app/code/MasteringMagento/Example/etc/adminhtml.xml
+ *
+ * This is description
+ *
+ * NOTICE OF LICENSE
+ *
+ * @author      Subash Basnet
+ * @category    MasteringMagento
+ * @package     Example
+ * @copyright   Copyright (c) 2017 
+ */
+-->
+<config>
+    <menu>
+        <example translate="title" module="example">
+            <title>Example</title>
+            <sort_order>1000</sort_order>
+            <action>adminhtml/example</action>
+        </example>
+    </menu>
+</config>
