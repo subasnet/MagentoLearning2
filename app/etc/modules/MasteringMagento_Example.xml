@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * app/code/etc/modules/MasteringMagento_Example.xml
+ *
+ * This is description
+ *
+ * NOTICE OF LICENSE
+ *
+ * @author      Subash Basnet
+ * @category    MasteringMagento
+ * @package     Example
+ * @copyright   Copyright (c) 2017 
+ */
+-->
+ <config>
+     <modules>
+         <MasteringMagento_Example>
+             <active>true</active>
+             <codePool>local</codePool>
+         </MasteringMagento_Example>
+     </modules>
+ </config>

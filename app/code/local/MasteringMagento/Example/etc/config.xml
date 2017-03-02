@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!--
+/**
+ * app/code/local/MasteringMagento/Example/etc/config.xml
+ *
+ * This is description
+ *
+ * NOTICE OF LICENSE
+ *
+ * @author      Subash Basnet
+ * @category    MasteringMagento
+ * @package     Example
+ * @copyright   Copyright (c) 2017 
+ */
+-->
+<config>
+    <modules>
+        <MasteringMagento_Example>
+            <version>0.0.1</version>
+        </MasteringMagento_Example>
+    </modules>
+    <global>
+        <models>
+            <example>
+                <class>MasteringMagento_Example_Model</class>
+            </example>
+        </models>
+        <blocks>
+            <example>
+                <class>MasteringMagento_Example_Block</class>
+            </example>
+        </blocks>
+        <helpers>
+            <example>
+                <class>MasteringMagento_Example_Helper</class>
+            </example>
+        </helpers>
+    </global>
+    
+</config>
