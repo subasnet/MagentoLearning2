@@ -16,5 +16,9 @@
 <layout>
     <example_index_index>
         <update handle="page_two_columns_right" />
+
+        <reference name="content">
+            <block type="example/welcome" />
+        </reference>
     </example_index_index>
 </layout>
