@@ -23,7 +23,19 @@
         <models>
             <example>
                 <class>MasteringMagento_Example_Model</class>
+                <resourceModel>example_resources</resourceModel>
             </example>
+            <example_resources>
+                <class>MasteringMagento_Example_Model_Resource</class>
+                <entities>
+                    <event>
+                        <table>example_event</table>
+                    </event>
+                    <event_registrant>
+                        <table>example_event_registrant</table>
+                    </event_registrant>
+                </entities>
+            </example_resources>
         </models>
         <blocks>
             <example>
